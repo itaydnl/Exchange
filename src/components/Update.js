@@ -39,7 +39,7 @@ export default class Update extends Component {
                     <br/>
                 
 
-                <Link to='/'>Back</Link>
+                <Link to='/Exchange/'>Back</Link>
                 <button onClick={this.props.updateCoin}>Update</button>
                </form>
             </div>

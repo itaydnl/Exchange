@@ -63,7 +63,7 @@ export default class Main extends Component {
                         <br/>
 
                         </form>
-                        <Link to='/update'>Update</Link>
+                        <Link to='/Exchange/update'>Update</Link>
                         <a href="http://www.facebook.com">Share on Facebook!</a>
                         <button onClick={this.switch}>View exchange list</button>
                         <br/>

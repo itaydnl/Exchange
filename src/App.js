@@ -137,7 +137,7 @@ export default class App extends Component {
       <div className='App'>
         <Router>
           <Switch>
-            <Route exact path='/' render={(props) => <Main {...props}
+            <Route exact path='/Exchange/' render={(props) => <Main {...props}
                                                            state={this.state}
                                                             handleFrom={this.handleFrom}
                                                              handleTo={this.handleTo}
@@ -147,7 +147,7 @@ export default class App extends Component {
 
 
                                                            />}/>
-            <Route exact path='/update' render={(props) => <Update {...props} 
+            <Route exact path='/Exchange/update' render={(props) => <Update {...props} 
                                                                     state={this.state}
                                                                      handleNewCoin={this.handleNewCoin}
                                                                       handleNewCoinValue={this.handleNewCoinValue}
