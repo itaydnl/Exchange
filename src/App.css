@@ -1,0 +1,32 @@
+.App , .Main , .Update {
+  text-align: center;
+  padding:2px;
+  margin:1px;
+  border:1px solid blue;
+  background-color: cadetblue;
+}
+
+.table {
+  border: 1px solid black;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+tr ,td{
+  border: 1px solid black;
+}
+
+Link ,a ,button {
+  text-align: center;
+  padding:6px;
+  margin:9px;
+  border:5px solid blue;
+  background-color: rgb(235, 239, 240);
+  border-radius: 10px;
+}
+
+.ActionList{
+  border:1px solid black ;
+}
+
