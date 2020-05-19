@@ -135,6 +135,7 @@ export default class App extends Component {
   render() {
     return (
       <div className='App'>
+        test
         <Router>
           <Switch>
             <Route exact path='/Exchange/' render={(props) => <Main {...props}
