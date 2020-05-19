@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react'
-import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom"
+import {HashRouter as HashRouter,Switch,Route,Link} from "react-router-dom"
 import './App.css';
 import Update from './components/Update.js'
 import Main from './components/Main';
@@ -136,7 +136,7 @@ export default class App extends Component {
     return (
       <div className='App'>
         test
-        <Router>
+        <HashRouter>
           <Switch>
             <Route exact path='/Exchange/' render={(props) => <Main {...props}
                                                            state={this.state}
@@ -157,7 +157,7 @@ export default class App extends Component {
 
         
          </Switch>
-        </Router>
+        </HashRouter>
       </div>//App
     )
   }
